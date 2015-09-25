@@ -26,5 +26,8 @@ include device/samsung/jf-common/BoardConfigCommon.mk
 # inherit from the proprietary version
 -include vendor/samsung/jf-gsm-common/BoardConfigVendor.mk
 
+# LZMA
+WITH_LZMA_OTA := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jfltexx,i9505,GT-I9505,jgedlte,i9505g,GT-I9505G,jflte
